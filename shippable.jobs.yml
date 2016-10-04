@@ -13,3 +13,12 @@ jobs:
       - TASK:
         - script: echo "Uber!"
       - IN: trigger-beta
+  
+  - name: nginx-apache-manifest
+    type: manifest
+    steps:
+      - IN: nginx-image
+      - IN: runSh-1
+      - TASK: managed
+         pull: false
+      - IN: trigger-beta

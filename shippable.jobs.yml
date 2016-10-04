@@ -1,0 +1,13 @@
+jobs:
+  - name: runSh-1
+    type: runSh
+    steps:
+      - TASK:
+        - script: echo "Ola!"
+
+  - name: runSh-2
+    type: runSh
+    steps:
+      - IN: runSh-1
+      - TASK:
+        - script: echo "Ola!"

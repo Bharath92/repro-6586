@@ -20,5 +20,5 @@ jobs:
       - IN: nginx-image
       - IN: runSh-1
       - TASK: managed
-         pull: false
+        pull: false
       - IN: trigger-beta

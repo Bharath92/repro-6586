@@ -4,7 +4,7 @@ jobs:
     steps:
       - TASK:
         - script: echo "Ola!"
-      - IN: trigger-alpha
+      - IN: trigger-beta
 
   - name: runSh-2
     type: runSh
@@ -12,4 +12,4 @@ jobs:
       - IN: runSh-1
       - TASK:
         - script: echo "Uber!"
-      - IN: trigger-alpha
+      - IN: trigger-beta

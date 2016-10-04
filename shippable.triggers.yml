@@ -1,5 +1,5 @@
 triggers:
-   - name: trigger-alpha
+   - name: trigger-beta
      type: trigger
      version:
        counter: 3

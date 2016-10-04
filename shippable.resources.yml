@@ -1,0 +1,8 @@
+resources:
+  - name: nginx-image
+    type: image
+    integration: dockerHub
+    pointer:
+      sourceName: "library/nginx"
+    seed:
+      versionName: latest

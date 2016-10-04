@@ -2,4 +2,4 @@ triggers:
    - name: trigger-beta
      type: trigger
      version:
-       counter: 3
+       counter: 4

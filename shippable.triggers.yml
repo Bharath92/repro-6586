@@ -1,0 +1,5 @@
+triggers:
+   - name: trigger-alpha
+     type: trigger
+     version:
+       counter: 2

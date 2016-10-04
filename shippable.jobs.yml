@@ -4,10 +4,12 @@ jobs:
     steps:
       - TASK:
         - script: echo "Ola!"
+      - IN: trigger-alpha
 
   - name: runSh-2
     type: runSh
     steps:
       - IN: runSh-1
       - TASK:
-        - script: echo "Ola!"
+        - script: echo "Uber!"
+      - IN: trigger-alpha
